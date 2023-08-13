@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Підключитися" HorizontalAlignment="Left" Margin="14,306,0,0" VerticalAlignment="Top" Width="109" Height="26"/>
+        <Label Content="X" HorizontalAlignment="Left" Margin="60,99,0,0" VerticalAlignment="Top"/>
+        <Label Content="Y" HorizontalAlignment="Left" Margin="60,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxX" HorizontalAlignment="Left" Margin="82,103,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxY" HorizontalAlignment="Left" Margin="82,130,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button Content="Обчислити" HorizontalAlignment="Left" Margin="142,306,0,0" VerticalAlignment="Top" Height="26" Width="111"/>
+        <Label Content="Результат:" HorizontalAlignment="Left" Margin="68,185,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
     </Grid>
 </Window>
